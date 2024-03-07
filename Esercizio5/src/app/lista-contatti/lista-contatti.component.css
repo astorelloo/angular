@@ -4,14 +4,13 @@
     align-items: center;
     background-color: #e0dddd;
     padding: 20px;
+
 }
 
 .card-body {
     padding: 20px;
-    border-radius: 10px; /* Angoli smussati */
 }
 
 .foto{
-    border-radius: 15px; /* Angoli smussati */
-    width: 400px;
+    width: 300px;
 }
