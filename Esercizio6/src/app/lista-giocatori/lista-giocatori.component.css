@@ -1,6 +1,6 @@
 .container {
     display: flex; /* Rende tutto responsive, pulito*/
-    flex-direction: column; /* Carte in verticale*/
+    flex-direction: row; 
     align-items: center;
     background-color: #e0dddd;
     padding: 20px;
