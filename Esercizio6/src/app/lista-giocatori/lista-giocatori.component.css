@@ -1,0 +1,16 @@
+.container {
+    display: flex; /* Rende tutto responsive, pulito*/
+    flex-direction: column; /* Carte in verticale*/
+    align-items: center;
+    background-color: #e0dddd;
+    padding: 20px;
+
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.foto{
+    width: 300px;
+}

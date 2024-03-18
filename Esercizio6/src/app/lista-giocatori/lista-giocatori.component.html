@@ -1,1 +1,20 @@
-<p>lista-giocatori works!</p>
+<div class="container">
+    <div *ngFor="let element of persone; let i = index"><br><br>
+        <img class="foto" [src]="element.immagine">
+        <div class="card-body" [ ngStyle]="{'background-color': sfondo[i], 'font-size': 30}">
+            <p class="card-text">Nome: <strong>{{element.nome}}</strong> <strong>{{element.cognome}}</strong></p>
+            <p class="card-text">Età: <i>{{element.eta}}</i></p>
+            <p class="card-text">Telefono: <i>{{element.nTelefono}}</i></p>
+            <div>
+                <ng-template *ngIf= "element.stato; then statoOnline else statoOffline"></ng-template>
+                <ng-template #statoOnline>
+                    <span style="color: green;">●</span>
+                </ng-template>
+                <ng-template #statoOffline>
+                    <span style="color: red;">●</span>
+                </ng-template>
+                <p class="card-text">Colore preferito: <i>{{element.colore}}</i></p>
+            </div>
+        </div>
+    </div>
+</div>
