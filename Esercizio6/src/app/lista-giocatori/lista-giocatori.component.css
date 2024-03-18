@@ -1,5 +1,5 @@
 .container {
-    display: flex; /* Rende tutto responsive, pulito*/
+    display: flex;
     flex-direction: row; 
     align-items: center;
     background-color: #e0dddd;
@@ -9,8 +9,35 @@
 
 .card-body {
     padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .foto{
-    width: 300px;
+    display: flex;
+    margin: 4px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 400px; /* Puoi regolare questa larghezza a seconda delle tue necessità */
+}
+.card-text{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.titolo{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 48px; 
+  text-align: center; 
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
+  margin-top: 50px; 
+  margin-bottom: 20px; 
+  text-transform: uppercase; 
+  letter-spacing: 1.5px;
 }

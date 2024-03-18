@@ -1,8 +1,12 @@
+<h1 class="titolo">LEADERBOARD VALORANT</h1>
+
 <div *ngFor="let element of persone; let i = index"><br><br>
-    <img class="foto" [src]="element.immagine">
-    <div class="card-body" [ngStyle]="{'background-color': sfondo[i], 'font-size': 30}">
-        <p class="card-text">NickName: <strong>{{element.nickname}}</strong></p>
-        <p class="card-text">Età: <i>{{element.eta}}</i></p>
-        <p class="card-text">Nazionalita': <i>{{element.nTelefono}}</i></p>
+    <div class="card-body">
+        <img class="foto" [src]="element.immagine">
+        <div class="card-body" [ngStyle]="{'background-color': sfondo[i], 'font-size': 30}">
+            <p class="card-text">NickName: <strong>{{element.nickname}}</strong></p>
+            <p class="card-text">Età: <i>{{element.eta}}</i></p>
+            <p class="card-text">Nazionalita': <i>{{element.nazionalita}}</i></p>
+        </div>
     </div>
 </div>
