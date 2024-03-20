@@ -1,7 +1,7 @@
 .container {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
+    display: flex; /* Rende tutto responsive, pulito*/
+    flex-direction: row; /* Carte in orizzontale*/
+    justify-content: center;
     background-color: #e0dddd;
     padding: 20px;
     
@@ -12,10 +12,12 @@
     width: 400px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: row;
     justify-content: center;
 }
 
 .foto{
+    justify-content: center;
     display: flex;
     margin: 4px;
     border-radius: 10px;
@@ -27,7 +29,7 @@
 .card-text{
     margin: 0;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     
 }
@@ -43,5 +45,16 @@
     letter-spacing: 1.5px;
 }
 .sfondo{
+    size: 100%;
     background-image: url('https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg');
+}
+.jett{background-color: #c7dbee;}
+.yoru{background-color: #1709df;}
+.viper{background-color: green;}
+.omen{background-color: #210464;}
+.gekko{background-color: #6de925;}
+.chamber{background-color: #ffd23e;}
+.raze{background-color: #ec7709;}
+.button{
+    
 }
