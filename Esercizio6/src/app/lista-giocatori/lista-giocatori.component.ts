@@ -24,5 +24,7 @@ export class ListaGiocatoriComponent {
     {immagine: "https://cdn.oneesports.gg/cdn-data/2022/10/Valorant_Marved_Masters.webp", nickname: " Marved", eta: "22",nazionalita: "Canada", operatore:"viper", web:"https://liquipedia.net/valorant/Marved"},
 
   ];
-  sfondo = ['#FFD700', '#c0c0c0', '#cd7f32', '#d2d2d2', '#d2d2d2', '#d2d2d2', '#d2d2d2', '#d2d2d2', '#d2d2d2', '#d2d2d2']; // Array di colore da inserire come sfondo
+  openLink(url: any) {
+    location.href = url;
+  }
 }
