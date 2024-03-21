@@ -36,9 +36,10 @@
     margin: 0;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .titolo{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -81,6 +82,14 @@
     background-color: transparent;
     border: transparent;
     border-radius: 10px;
-    color: #e62020;
+    color: #000000;
     text-decoration: underline;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.badge {
+    background-color: #ffffff51;
+    color: rgb(255, 0, 0);
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+  }
