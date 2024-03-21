@@ -2,14 +2,20 @@
     display: flex; /* Rende tutto responsive, pulito*/
     flex-direction: row; /* Carte in orizzontale*/
     justify-content: center;
-    background-color: #e0dddd;
     padding: 20px;
-    
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.logo img{
+    width: 300px;
+}
 .card-body {
     padding: 20px;
-    width: 400px;
+    width: 365px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     flex-direction: row;
@@ -41,13 +47,19 @@
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
     margin-top: 50px; 
     margin-bottom: 20px; 
+    margin-left: 350px;
+    margin-right: 350px;
     text-transform: uppercase; 
     letter-spacing: 1.5px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px; /* Angoli smussati */
 }
 .sfondo{
     size: 100%;
-    background-image: url('https://wallpapers.com/images/featured/valorant-305kescxw5dpup7y.jpg');
+    background-image: url('sfondo.jpeg');
 }
+
 .jett{background-color: #c7dbee;}
 .yoru{background-color: #1709df;}
 .viper{background-color: green;}

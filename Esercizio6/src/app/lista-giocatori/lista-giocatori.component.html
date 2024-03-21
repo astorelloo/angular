@@ -1,7 +1,10 @@
 <div class="sfondo">
     <br>
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/1280px-Valorant_logo_-_pink_color_version.svg.png" alt="">
+    </div>
     <div><h1 class="titolo">LEADERBOARD VALORANT</h1></div>
-    <div *ngFor="let element of persone; let i = index"><br><br>
+    <div class="container" *ngFor="let element of persone; let i = index"><br><br>
         <div class="card-body" >
             <img class="foto" [src]="element.immagine">
             <div class="card-body" [ngClass]="{'jett' :element.operatore =='jett', 'yoru' :element.operatore =='yoru', 'omen' :element.operatore =='omen', 'gekko' :element.operatore =='gekko','chamber' :element.operatore =='chamber','viper' :element.operatore =='viper', 'raze' :element.operatore =='raze',}">
@@ -10,7 +13,6 @@
                 <p class="card-text">Nazionalita': <i>{{element.nazionalita}}</i></p>
                 <p class="card-text">Operatore': <i>{{element.operatore}}</i></p>
                 <button class="button" (click)=" openLink(element.web) ">Wiki</button>
-                
             </div>
         </div>
     </div>
