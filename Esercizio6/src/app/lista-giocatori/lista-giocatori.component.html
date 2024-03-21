@@ -10,20 +10,18 @@
             <div class="card-body" [ngClass]="{'jett' :element.operatore =='jett', 'yoru' :element.operatore =='yoru', 'omen' :element.operatore =='omen', 'gekko' :element.operatore =='gekko','chamber' :element.operatore =='chamber','viper' :element.operatore =='viper', 'raze' :element.operatore =='raze',}">
                 <p class="card-text"><strong>{{element.nickname}}</strong></p>
                 <p class="card-text"><i>{{element.eta}}</i></p>
-                <p class="card-text"><i>{{element.nazionalita}} </i> 
-                    <span class="ui left pointing label">
-                        <div [ngSwitch]="element.nazionalita">
-                        <ng-container *ngSwitchCase="'USA'">🇺🇸</ng-container>
-                        <ng-container *ngSwitchCase="'Latvia'">🇱🇻</ng-container>
-                        <ng-container *ngSwitchCase="'Russia'">🇷🇺</ng-container>
-                        <ng-container *ngSwitchCase="'UK'">🇬🇧</ng-container>
-                        <ng-container *ngSwitchCase="'Canada'"> 🇨🇦</ng-container>
-                        <ng-container *ngSwitchCase="'Singapore'">🇸🇬</ng-container>
-                        <ng-container *ngSwitchCase="'Brasile'"> 🇧🇷</ng-container>
-                        <ng-container ngSwitchDefault>default</ng-container>
-                       </div>
-                    </span>
-                </p>
+                <span>
+                    <div [ngSwitch]="element.nazionalita">
+                        <p class="badge" *ngSwitchCase="'USA'">🇺🇸</p>
+                        <p class="badge" *ngSwitchCase="'Latvia'">🇱🇻</p>
+                        <p class="badge" *ngSwitchCase="'Russia'">🇷🇺</p>
+                        <p class="badge" *ngSwitchCase="'UK'">🇬🇧</p>
+                        <p class="badge" *ngSwitchCase="'Canada'"> 🇨🇦</p>
+                        <p class="badge" *ngSwitchCase="'Singapore'">🇸🇬</p>
+                        <p class="badge" *ngSwitchCase="'Brasile'"> 🇧🇷</p>
+                        <p class="badge" *ngSwitchDefault>default</p>
+                    </div>
+                </span>  
                 <p class="card-text">Operatore: <i>{{element.operatore}}</i></p>
                 <div class="container">
                     <button class="button" (click)=" openLink(element.web) ">Wiki</button>
