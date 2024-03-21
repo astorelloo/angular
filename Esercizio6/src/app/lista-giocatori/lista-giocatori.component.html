@@ -3,7 +3,10 @@
     <div class="logo">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/1280px-Valorant_logo_-_pink_color_version.svg.png" alt="">
     </div>
-    <div><h1 class="titolo">LEADERBOARD VALORANT</h1></div>
+        <h1 class="titolo">LEADERBOARD VALORANT</h1>
+        <div class="container">
+            <p class="descrizione">Valorant è uno sparatutto tattico che vede due squadre di cinque giocatori prendere il controllo di diversi personaggi, che differiscono per caratteristiche e abilità.</p>
+        </div>
     <div class="container" *ngFor="let element of persone; let i = index"><br><br>
         <div class="card-body" >
             <img class="foto" [src]="element.immagine">

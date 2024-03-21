@@ -1,6 +1,5 @@
 .container {
     display: flex; /* Rende tutto responsive, pulito*/
-    flex-direction: row; /* Carte in orizzontale*/
     justify-content: center;
     padding: 20px;
 }
@@ -36,7 +35,7 @@
     margin: 0;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -58,11 +57,12 @@
     padding: 10px;
     border-radius: 10px; /* Angoli smussati */
 }
-.sfondo{
-    size: 100%;
-    background-image: url('sfondo.jpeg');
-}
 
+.sfondo{
+    background-image: url("sfondo.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .jett{background-color: #c7dbeecb;}
 .yoru{background-color: #1000f5bd;}
 .viper{background-color: rgba(0, 128, 0, 0.789);}
@@ -87,15 +87,32 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .badge {
-    background-color: #ffffff51;
-    color: rgb(255, 0, 0);
+    background-color: #ffffff26;
     padding: 4px 8px;
     text-align: center;
     border-radius: 15px;
-    font-size: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
   }
 .span{
     display: flex; /* Rende tutto responsive, pulito*/
     flex-direction: row; /* Carte in orizzontale*/
+    justify-content: center;
+    
+}
+.descrizione{
+    background-color: #ffffff85;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px; 
+    text-align: center; 
+    color: #fffbfb;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
+    letter-spacing: 1.5px;
+    background-color: rgba(39, 39, 39, 0.804);
+    opacity: 75%;
+    padding: 10px;
+    border-radius: 10px; /* Angoli smussati */
+    display: flex;
     justify-content: center;
 }
