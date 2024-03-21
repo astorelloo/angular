@@ -34,10 +34,11 @@
 }
 .card-text{
     margin: 0;
+    text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
-    
+    text-align: center;
 }
 .titolo{
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -52,6 +53,7 @@
     text-transform: uppercase; 
     letter-spacing: 1.5px;
     background-color: lightgray;
+    opacity: 75%;
     padding: 10px;
     border-radius: 10px; /* Angoli smussati */
 }
@@ -60,13 +62,25 @@
     background-image: url('sfondo.jpeg');
 }
 
-.jett{background-color: #c7dbee;}
-.yoru{background-color: #1709df;}
-.viper{background-color: green;}
-.omen{background-color: #210464;}
-.gekko{background-color: #6de925;}
-.chamber{background-color: #ffd23e;}
-.raze{background-color: #ec7709;}
+.jett{background-color: #c7dbeecb;}
+.yoru{background-color: #1000f5bd;}
+.viper{background-color: rgba(0, 128, 0, 0.789);}
+.omen{background-color: #6f39efd2;}
+.gekko{background-color: #6de925c1;}
+.chamber{background-color: #ffd23ecc;}
+.raze{background-color: #ec7709c9;}
 .button{
-    
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    color: #e62020;
+    text-decoration: underline;
 }

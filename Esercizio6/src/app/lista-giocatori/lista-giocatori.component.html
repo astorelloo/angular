@@ -8,11 +8,13 @@
         <div class="card-body" >
             <img class="foto" [src]="element.immagine">
             <div class="card-body" [ngClass]="{'jett' :element.operatore =='jett', 'yoru' :element.operatore =='yoru', 'omen' :element.operatore =='omen', 'gekko' :element.operatore =='gekko','chamber' :element.operatore =='chamber','viper' :element.operatore =='viper', 'raze' :element.operatore =='raze',}">
-                <p class="card-text">NickName: <strong>{{element.nickname}}</strong></p>
-                <p class="card-text">Età: <i>{{element.eta}}</i></p>
-                <p class="card-text">Nazionalita': <i>{{element.nazionalita}}</i></p>
+                <p class="card-text"><strong>{{element.nickname}}</strong></p>
+                <p class="card-text"><i>{{element.eta}}</i></p>
+                <p class="card-text"><i>{{element.nazionalita}}</i></p>
                 <p class="card-text">Operatore': <i>{{element.operatore}}</i></p>
-                <button class="button" (click)=" openLink(element.web) ">Wiki</button>
+                <div class="container">
+                    <button class="button" (click)=" openLink(element.web) ">Wiki</button>
+                </div>
             </div>
         </div>
     </div>
