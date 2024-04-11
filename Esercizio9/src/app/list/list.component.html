@@ -1,0 +1,13 @@
+<div *ngFor="let element of biglietti ">
+    <div class="container">
+        <div class="prodotto">
+            <h2>{{ element.destinazione }}</h2>
+            <img class="immagine" [src]="element.immagine">
+            <p>Sistema Solare:{{element.sistemaSolare}}</p>
+            <p>Durata Viaggio:{{element.durata}}</p>
+            <p>Spazio porto di partenza:{{element.spazioPorto}}</p>
+            <p>Ora di partenza e arrivo:{{element.partenzaArrivo}}</p>
+            <p>Prezzo biglietto:{{element.costo}}</p>
+        </div>
+    </div>
+</div>
