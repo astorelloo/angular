@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(1920x1080.jpg);
+    background-size: cover;
+    background-position: center; /* Posiziona l'immagine al centro */
+    background-attachment: fixed; /* Fissa lo sfondo durante lo scrolling */
+    background-repeat: no-repeat; /* Non ripete l'immagine di sfondo */
+    font-family: 'Arial', sans-serif;
+}

@@ -1,11 +1,14 @@
-<navigation (paginaEvento)="paginaNavbar($event)"></navigation>
-<ng-template *ngIf = "pagina == 'home'; then bloccoHome"></ng-template>
-<ng-template #bloccoHome>
-    <introduction></introduction>
-</ng-template>
-<!----------------------------------------------------------------------------->
-<ng-template *ngIf = "pagina == 'biglietto'; then bloccoBiglietto"></ng-template>
-<ng-template #bloccoBiglietto>
-    <br><list></list>
-</ng-template>
+<div>
+    <navigation (paginaEvento)="paginaNavbar($event)"></navigation>
+    <ng-template *ngIf = "pagina == 'home'; then bloccoHome"></ng-template>
+    <ng-template #bloccoHome>
+        <introduction></introduction>
+    </ng-template>
+    <!----------------------------------------------------------------------------->
+    <ng-template *ngIf = "pagina == 'biglietto'; then bloccoBiglietto"></ng-template>
+    <ng-template #bloccoBiglietto>
+        <br><list></list>
+    </ng-template>
+</div>
+
 
