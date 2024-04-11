@@ -1,0 +1,45 @@
+.titolo{
+    font-family: 'Arial', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff; 
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo */
+}
+.container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+    width: 80%;
+    background-color: rgba(77,87,111, 0.45);
+    padding: 10px;
+    border-radius: 10px;
+}
+.testo{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.5; 
+    color: #ffffff; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 550;
+    line-height: 1.7; 
+}
+.bottone{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.5; 
+    color: #ffffff;
+    background-color: transparent; 
+    border: 2px solid #ffffff; /* Spessore del bordo e colore */
+    border-radius: 5px; /* Bordi arrotondati */
+    text-align: center;
+    font-weight: 550;
+    line-height: 1.7; 
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(77,87,111, 0.45);
+}

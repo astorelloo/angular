@@ -1,12 +1,12 @@
 .titolo{
     font-family: 'Arial', sans-serif;
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bold;
   color: #ffffff; 
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo */
 }
 .container{
@@ -14,5 +14,18 @@
     flex-direction: column; 
     justify-content: center;
     width: 80%;
-    background-color: rgba(31, 48, 206, 0.763);
+    background-color: rgba(77,87,111, 0.45);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.testo{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.5; /* Altezza della riga */
+    color: #ffffff; /* Colore del testo bianco */
+    text-align: center;
+    margin-bottom: 30px; /* Margine inferiore */
+    font-weight: 550; /* Peso del testo leggermente più spesso */
+    line-height: 1.7; /* Altezza della riga */
 }
