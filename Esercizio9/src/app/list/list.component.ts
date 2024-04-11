@@ -11,6 +11,14 @@ import { Component } from '@angular/core';
 export class ListComponent {
   biglietti=[
     {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
+    {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
+    {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
+    {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
+    {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
+    {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
+    {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
+    {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
+    {immagine:"", destinazione:" ", sistemaSolare:"", durata:"", spazioPorto:"", partenzaArrivo:"", costo:""},
 
   ]
 }
