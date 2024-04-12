@@ -1,15 +1,15 @@
 <div class="container">
     <div *ngFor="let element of biglietti; let i = index">
         <div class="card-body">
-            <div class="section">
-                <h2>{{ element.destinazione |uppercase}}</h2>
-                <img class="immagine" [src]="element.immagine">
-                <p>Sistema Solare: {{element.sistemaSolare }}</p>
-                <p>Durata Viaggio: {{element.durata |lowercase}}</p>
-                <p>Spazio porto di partenza: {{element.spazioPorto |lowercase}}</p>
-                <p>Ora di partenza e arrivo: {{element.partenzaArrivo |lowercase}}</p>
-                <p>Prezzo biglietto: {{element.costo |uppercase}}</p>
-            </div>
+                <h1 class="titolo">{{ element.destinazione |uppercase}}</h1>
+                <div class="foto">
+                    <img [src]="element.immagine">
+                </div>
+                <p class="testo">Sistema Solare: {{element.sistemaSolare }}</p>
+                <p class="testo">Durata Viaggio: {{element.durata |lowercase}}</p>
+                <p class="testo">Spazio porto di partenza: {{element.spazioPorto |lowercase}}</p>
+                <p class="testo">Ora di partenza e arrivo: {{element.partenzaArrivo |lowercase}}</p>
+                <p class="testo">Prezzo biglietto: {{element.costo |uppercase}}</p>
         </div>
     </div>
 </div>
