@@ -2,7 +2,14 @@
     <div *ngFor="let element of Dati.mostre; let i = index">
         <div class="card-body">
                 <h1 class="titolo">{{ element.nome |uppercase}}</h1>
-                
+                <div>
+                    <div class="sinistra">
+                        <img class="foto" [src]="element.immagine">
+                        <p class="testo">Artisti: {{element.artisti}}</p>
+                        <p class="testo">disponibile dal {{element.dataInizio |date: 'longDate'}} fino al {{element.dataFine |date: 'longDate'}}</p>
+                    </div>
+                    <p class="testo">{{element.descrizione}}</p>
+                </div>
         </div>
         <br>
     </div>

@@ -1,0 +1,9 @@
+.testo {
+    margin-left: 10px; /* Aggiungi margine per separare il testo dall'immagine */
+}
+
+.card-body {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
