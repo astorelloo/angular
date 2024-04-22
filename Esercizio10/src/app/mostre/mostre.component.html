@@ -9,6 +9,7 @@
                         <p class="testo">disponibile dal {{element.dataInizio |date: 'longDate'}} fino al {{element.dataFine |date: 'longDate'}}</p>
                     </div>
                     <p class="testo">{{element.descrizione}}</p>
+                    <button id="i" (click)="metodoCambio(i)">di piu'</button><!--cosi l'id è uguale al numero del ciclo for-->
                 </div>
         </div>
         <br>

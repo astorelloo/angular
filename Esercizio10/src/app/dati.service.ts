@@ -14,4 +14,10 @@ export class DatiService {
     {nome:"MOSTRA 'CÉZANNE E RENOIR' A MILANO",artisti:"Paul Cézann e Pierre-Auguste Renoir",immagine:"https://www.gedistatic.it/content/gnn/img/lastampa/2024/03/18/180119354-34dbd6c3-f19f-4ec0-9873-9b62f28c3896.jpg", descrizione:"La mostra 'Cézanne e Renoir' in programma a Palazzo Reale dal 19 marzo 2024 porta a Milano una ricca selezione di opere provenienti da due prestigiosi musei parigini, il Museo d'Orsay e l'Orangerie, grazie alle quali sarà possibile ripercorrere la rivoluzionaria stagione artistica dell'Impressionismo e illustrare l'eredità pittorica lasciata dai due grandi maestri francesi alle avanguardie del Novecento.", dataInzio:"2024/03/19", dataFine:"2024/06/30"},
     {nome:"MOSTRA DI MUNCH A MILANO",artisti:"Edvard Munch",immagine:"https://cdn.mediatheque.epmoo.fr/link/pcp19ipc0ez0bz4.jpg", descrizione:"La mostra di Edvard Munch a Palazzo Reale di Milano offre l'imperdibile occasione di approfondire la conoscenza di uno dei più importanti interpreti della pittura europea a cavallo tra XIX e XX secolo, che ha saputo rielaborare gli stimoli della pittura del proprio tempo dando vita a un'arte personalissima ma al contempo in grado di rappresentare le angosce e le paure del genere umano.", dataInzio:"2024/10/01", dataFine:"2025/01/10"},
   ]
+  dati=[
+    {nome:'gino',descrizione:"è un coglione"},
+    {nome:'pino',descrizione:""},
+    {nome:'mario',descrizione:""},
+  ]
+  
 }

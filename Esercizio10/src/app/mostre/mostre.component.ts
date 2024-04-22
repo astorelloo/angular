@@ -14,4 +14,8 @@ export class MostreComponent {
   constructor(public Dati: DatiService){
 
   }
+
+  metodoCambio(id: any){
+    window.location.href = '/Dettagli/' + id;
+  }
 }
