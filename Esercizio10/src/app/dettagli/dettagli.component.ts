@@ -13,6 +13,7 @@ export class DettagliComponent {
   identificatore: any;
   nome: any;
   descrizione: any;
+  immagine: any;
   constructor(private route: ActivatedRoute, public provaService: DatiService){
  
   }
@@ -21,5 +22,6 @@ export class DettagliComponent {
     this.identificatore = this.route.snapshot.paramMap.get('id');
     this.nome = this.provaService.dati[this.identificatore].nome;
     this.descrizione = this.provaService.dati[this.identificatore].descrizione;
+    this.immagine = this.provaService.dati[this.identificatore].immagine;
   }
 }
