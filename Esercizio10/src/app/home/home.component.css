@@ -1,0 +1,19 @@
+.container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    width: 80%;
+    background-color: rgba(77,87,111, 0.45);
+    padding: 10px;
+    border-radius: 20px;
+}
+.testo{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #000000; 
+    text-align: center;
+    margin-bottom: 30px; 
+    font-weight: 550; 
+    line-height: 1.7; 
+}
