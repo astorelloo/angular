@@ -75,12 +75,15 @@ ul li:nth-child(6n + 2) a:before {
     justify-content: center;
 }
 .titolo{
-  font-size: 3em;
-  padding: 5px 20px;
-  display: inline-flex;
-  font-weight: 700;
-  align-items: center;
-  justify-content: center;
+  font-family: 'Arial', sans-serif;
+font-size: 50px;
+font-weight: bold;
+color: #000000; 
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin: 20px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo */
 }
 .testo{
     align-items: center;

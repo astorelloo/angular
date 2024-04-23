@@ -16,8 +16,8 @@
             <div class="text">
                 <p>Artisti: {{element.artisti}}</p>
                 <p>{{element.descrizione}}</p>
-                <p>disponibile dal {{element.dataInizio |date: 'longDate'}} fino al {{element.dataFine |date: 'longDate'}}</p>
-                <button id="i" (click)="metodoCambio(i)">di piu'</button><!--cosi l'id è uguale al numero del ciclo for-->
+                <p>disponibile dal {{element.dataInizio|date: 'longDate'}} fino al {{element.dataFine |date: 'longDate'}}</p>
+                <button class="bottone" id="i" (click)="metodoCambio(i)">di piu'</button><!--cosi l'id è uguale al numero del ciclo for-->
             </div>
         </div>
     </div>

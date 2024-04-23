@@ -1,0 +1,28 @@
+.foto{
+    width: 800px;
+    display: flex;
+    margin-left: 25%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.titolo{
+    font-family: 'Arial', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000; 
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo */
+}
+.testo{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.5; /* Altezza della riga */
+    color: #000000; /* Colore del testo bianco */
+    text-align: center;
+    margin-bottom: 30px; /* Margine inferiore */
+    font-weight: 550; /* Peso del testo leggermente più spesso */
+    line-height: 1.7; /* Altezza della riga */
+}
