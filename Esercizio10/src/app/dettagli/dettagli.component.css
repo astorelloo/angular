@@ -26,3 +26,13 @@
     font-weight: 550; /* Peso del testo leggermente più spesso */
     line-height: 1.7; /* Altezza della riga */
 }
+.container{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    width: 80%;
+    background-color: #b6deff;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 7%;
+}

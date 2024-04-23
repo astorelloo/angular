@@ -64,7 +64,7 @@ ul li a:hover:before {
   height: 3000px;
 }
 ul li:nth-child(6n + 1) a:before {
-  background: #e1fe04;
+  background: #1f7ba9;
 }
 ul li:nth-child(6n + 2) a:before {
   background: #75c8ff;
