@@ -1,18 +1,24 @@
-<div class="container">
+
     <div *ngFor="let element of Dati.mostre; let i = index">
-        <div class="card-body">
-                <h1 class="titolo">{{ element.nome |uppercase}}</h1>
-                <div>
-                    <div class="sinistra">
-                        <img class="foto" [src]="element.immagine">
-                        <p class="testo">Artisti: {{element.artisti}}</p>
-                        <p class="testo">disponibile dal {{element.dataInizio |date: 'longDate'}} fino al {{element.dataFine |date: 'longDate'}}</p>
-                    </div>
-                    <p class="testo">{{element.descrizione}}</p>
-                    <button id="i" (click)="metodoCambio(i)">di piu'</button><!--cosi l'id è uguale al numero del ciclo for-->
+        <div class="wrap animate pop">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">{{ element.nome |uppercase}}</h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;"></p>
                 </div>
+                <img class="image-content animate slide delay-5" [src]="element.immagine">
+                <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                </div>
+            </div>
+            <div class="text">
+                <p>Artisti: {{element.artisti}}</p>
+                <p>{{element.descrizione}}</p>
+                <p>disponibile dal {{element.dataInizio |date: 'longDate'}} fino al {{element.dataFine |date: 'longDate'}}</p>
+                <button id="i" (click)="metodoCambio(i)">di piu'</button><!--cosi l'id è uguale al numero del ciclo for-->
+            </div>
         </div>
-        <br>
-        <p>
     </div>
-</div>
+
